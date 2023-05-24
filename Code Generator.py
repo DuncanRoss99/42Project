@@ -6,6 +6,6 @@ def generate_code(length):
     code = ''.join(random.choice(characters) for _ in range(length))
     return code
 
-code_length = 9
+code_length = 10
 generated_code = generate_code(code_length)
 print("Generated code:", generated_code)
